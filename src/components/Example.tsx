@@ -21,7 +21,7 @@ const Example: FC = () => {
   return (
     <form
       onSubmit={handleSubmit(onSubmit)}
-      className="divide-y space-y-2 divide-white"
+      className="space-y-2"
     >
       <div>
         <input
